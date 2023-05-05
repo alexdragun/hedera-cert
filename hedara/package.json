@@ -1,0 +1,21 @@
+{
+  "name": "hedara",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "token": "node token_service.js",
+    "smart_contract": "node smart_contract.js",
+    "scheduled_transaction": "node scheduled_transaction.js",
+    "multi_signature": "node multi_signature.js",
+    "consensus_service": "node consensus_service.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.24.2",
+    "dotenv": "^16.0.3"
+  }
+}
